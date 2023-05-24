@@ -41,15 +41,25 @@
 # #print(f"you'll need {cansOfPaint} cans of paint")
 
 # Prime number checker
-def prime_checker(number):
-    i = 2
-    while i < number:
-        if number % i == 0:
-            print(f"{number} is not a Prime")
-            return
-        i += 1
-    print(f"{number} is a Prime")
-    return
+# def prime_checker(number):
+#     i = 2
+#     while i < number:
+#         if number % i == 0:
+#             print(f"{number} is not a Prime")
+#             return
+#         i += 1
+#     print(f"{number} is a Prime")
+#     return
 
-n = int(input("Check this number: "))
-prime_checker(number=n)
+# def prime_checker(number):
+#     is_prime = True
+#     for i in range(2, number):
+#         if number % i == 0:
+#             is_prime = False
+#         if is_prime:
+#             print(f"It's a prime number.")
+#         else:
+#             print(f"It's not a prime number.")
+
+# n = int(input("Check this number: "))
+# prime_checker(number=n)
