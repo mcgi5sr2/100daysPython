@@ -166,7 +166,7 @@ def play_game():
         if user_score == 0 or computer_score == 0 or user_score > 21:
             is_game_over = True
         else:
-            user_should_deal = input("Tpye 'y' ot get another card, type 'b' to pass: ")
+            user_should_deal = input("Tpye 'y' to get another card, type 'b' to pass: ")
             if user_should_deal == "y":
                 user_cards.append(deal_card())
             else: 
